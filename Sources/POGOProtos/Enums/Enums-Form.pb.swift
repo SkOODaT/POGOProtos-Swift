@@ -2182,6 +2182,12 @@ public enum POGOProtos_Enums_Form: SwiftProtobuf.Enum {
   case hoopaUnbound // = 2652
   case sableyeCostume2020Deprecated // = 2666
   case sableyeCostume2020 // = 2668
+  case pikachuAdventureHat2020 // = 2669
+  case pikachuWinter2020 // = 2670
+  case delibirdWinter2020 // = 2671
+  case cubchooWinter2020 // = 2672
+  case slowpoke2020 // = 2673
+  case slowbro2021 // = 2674
   case UNRECOGNIZED(Int)
 
   public init() {
@@ -4350,6 +4356,12 @@ public enum POGOProtos_Enums_Form: SwiftProtobuf.Enum {
     case 2652: self = .hoopaUnbound
     case 2666: self = .sableyeCostume2020Deprecated
     case 2668: self = .sableyeCostume2020
+    case 2669: self = .pikachuAdventureHat2020
+    case 2670: self = .pikachuWinter2020
+    case 2671: self = .delibirdWinter2020
+    case 2672: self = .cubchooWinter2020
+    case 2673: self = .slowpoke2020
+    case 2674: self = .slowbro2021
     default: self = .UNRECOGNIZED(rawValue)
     }
   }
@@ -6528,6 +6540,12 @@ public enum POGOProtos_Enums_Form: SwiftProtobuf.Enum {
     case .hoopaUnbound: return 2652
     case .sableyeCostume2020Deprecated: return 2666
     case .sableyeCostume2020: return 2668
+    case .pikachuAdventureHat2020: return 2669
+    case .pikachuWinter2020: return 2670
+    case .delibirdWinter2020: return 2671
+    case .cubchooWinter2020: return 2672
+    case .slowpoke2020: return 2673
+    case .slowbro2021: return 2674
     case .UNRECOGNIZED(let i): return i
     default: break
     }
@@ -8704,6 +8722,12 @@ extension POGOProtos_Enums_Form: CaseIterable {
     .hoopaUnbound,
     .sableyeCostume2020Deprecated,
     .sableyeCostume2020,
+    .pikachuAdventureHat2020,
+    .pikachuWinter2020,
+    .delibirdWinter2020,
+    .cubchooWinter2020,
+    .slowpoke2020,
+    .slowbro2021,
   ]
 }
 
@@ -10873,5 +10897,11 @@ extension POGOProtos_Enums_Form: SwiftProtobuf._ProtoNameProviding {
     2652: .same(proto: "HOOPA_UNBOUND"),
     2666: .same(proto: "SABLEYE_COSTUME_2020_DEPRECATED"),
     2668: .same(proto: "SABLEYE_COSTUME_2020"),
+    2669: .same(proto: "PIKACHU_ADVENTURE_HAT_2020"),
+    2670: .same(proto: "PIKACHU_WINTER_2020"),
+    2671: .same(proto: "DELIBIRD_WINTER_2020"),
+    2672: .same(proto: "CUBCHOO_WINTER_2020"),
+    2673: .same(proto: "SLOWPOKE_2020"),
+    2674: .same(proto: "SLOWBRO_2021"),
   ]
 }
